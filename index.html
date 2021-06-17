@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/f85160339b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <title>TicTacToe</title>
+  </head>
+  <body>
+    <header>Tic<span>Tac</span>Toe Game</header>
+    <main>
+      <aside>
+        <h3>Statystyki</h3>
+        <div class="scoreInfo">
+          <p class="wins">Twoje wygrane: <span></span></p>
+          <p class="losses">Twoje przegrane: <span></span></p>
+          <p class="draws">Remisy: <span></span></p>
+        </div>
+        <p class="gameInfo">
+          Kliknij w dowolne pole na planszy aby rozpocząć gre
+        </p>
+      </aside>
+      <section>
+        <div class="game-skeleton">
+          <div class="gameStatus"></div>
+          <button id="1" class="gameBtn" data-option="1"></button>
+          <button id="2" class="gameBtn" data-option="2"></button
+          ><button id="3" class="gameBtn" data-option="3"></button>
+          <button id="4" class="gameBtn" data-option="4"></button
+          ><button id="5" class="gameBtn" data-option="5"></button>
+          <button id="6" class="gameBtn" data-option="6"></button
+          ><button id="7" class="gameBtn" data-option="7"></button>
+          <button id="8" class="gameBtn" data-option="8"></button
+          ><button id="9" class="gameBtn" data-option="9"></button>
+        </div>
+        <button class="reset">Reset</button>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
